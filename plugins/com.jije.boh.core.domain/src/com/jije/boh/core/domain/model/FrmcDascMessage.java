@@ -3,6 +3,7 @@
  */
 package com.jije.boh.core.domain.model;
 
+import java.io.Serializable;
 import java.sql.Date;
 
 import javax.persistence.Column;
@@ -21,7 +22,7 @@ import javax.persistence.TemporalType;
  **/
 @Entity
 @Table(name = "frmcdascmessage")
-public class FrmcDascMessage {
+public class FrmcDascMessage implements Serializable {
 	private static final long serialVersionUID = 1L;
 	@Id
 	@GeneratedValue(generator = "system-uuid")
