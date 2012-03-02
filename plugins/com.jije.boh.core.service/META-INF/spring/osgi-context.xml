@@ -8,13 +8,13 @@
  
 	<osgi:reference interface="com.jije.boh.core.jpa.repository.UserRepository"
 		id="userDao" />
-	 <osgi:reference interface="com.jije.boh.core.jpa.repository.ui.FrmcDashboardCfgRepository"
+	 <osgi:reference interface="com.jije.boh.core.jpa.repository.FrmcDashboardCfgRepository"
 		id="frmcDashboardCfgDao" />
-	 <osgi:reference interface="com.jije.boh.core.jpa.repository.ui.FrmcDashboardCfgDetailRepository"
+	 <osgi:reference interface="com.jije.boh.core.jpa.repository.FrmcDashboardCfgDetailRepository"
 	id="frmcDashboardCfgDetailDao" />
-	 <osgi:reference interface="com.jije.boh.core.jpa.repository.ui.FrmcMenuCfgRepository"
+	 <osgi:reference interface="com.jije.boh.core.jpa.repository.FrmcMenuCfgRepository"
 	id="frmcMenuCfgDao" />
-	 <osgi:reference interface="com.jije.boh.core.jpa.repository.ui.FrmcDascMessageRepository"
+	 <osgi:reference interface="com.jije.boh.core.jpa.repository.FrmcDascMessageRepository"
 	id="frmcDascMessageDao" />
 
 </beans>

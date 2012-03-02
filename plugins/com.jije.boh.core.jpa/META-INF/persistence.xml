@@ -9,10 +9,10 @@
 		<class>com.jije.boh.core.domain.model.Account</class>
         <class>com.jije.boh.core.domain.model.Customer</class>
         <class>com.jije.boh.core.domain.model.Transaction</class>
-        <class>com.jije.boh.core.domain.ui.FrmcDashboardCfg</class>
-        <class>com.jije.boh.core.domain.ui.FrmcDashboardCfgDetail</class>
-        <class>com.jije.boh.core.domain.ui.FrmcMenuCfg</class>
-         <class>com.jije.boh.core.domain.ui.FrmcDascMessage</class>
+        <class>com.jije.boh.core.domain.model.FrmcDashboardCfg</class>
+        <class>com.jije.boh.core.domain.model.FrmcDashboardCfgDetail</class>
+        <class>com.jije.boh.core.domain.model.FrmcMenuCfg</class>
+        <class>com.jije.boh.core.domain.model.FrmcDascMessage</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 
 		<properties>

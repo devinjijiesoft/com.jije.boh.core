@@ -12,15 +12,15 @@
 		interface="com.jije.boh.core.jpa.repository.UserRepository" />
 		
 	<osgi:service ref="frmcDashboardCfgRepository"
-              interface="com.jije.boh.core.jpa.repository.ui.FrmcDashboardCfgRepository" />
+              interface="com.jije.boh.core.jpa.repository.FrmcDashboardCfgRepository" />
               
      	      
               <osgi:service ref="frmcDashboardCfgDetailRepository"
-              interface="com.jije.boh.core.jpa.repository.ui.FrmcDashboardCfgDetailRepository" />
+              interface="com.jije.boh.core.jpa.repository.FrmcDashboardCfgDetailRepository" />
                <osgi:service ref="frmcMenuCfgRepository"
-              interface="com.jije.boh.core.jpa.repository.ui.FrmcMenuCfgRepository" />
+              interface="com.jije.boh.core.jpa.repository.FrmcMenuCfgRepository" />
               	<osgi:service ref="frmcDascMessageRepository"
-              interface="com.jije.boh.core.jpa.repository.ui.FrmcDascMessageRepository" />
+              interface="com.jije.boh.core.jpa.repository.FrmcDascMessageRepository" />
               
  
 	

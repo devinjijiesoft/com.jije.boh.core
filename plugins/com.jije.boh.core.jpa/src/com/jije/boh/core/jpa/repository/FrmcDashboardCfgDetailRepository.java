@@ -1,11 +1,11 @@
-package com.jije.boh.core.jpa.repository.ui;
+package com.jije.boh.core.jpa.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jije.boh.core.domain.ui.FrmcDashboardCfg;
-import com.jije.boh.core.domain.ui.FrmcDashboardCfgDetail;
+import com.jije.boh.core.domain.model.FrmcDashboardCfg;
+import com.jije.boh.core.domain.model.FrmcDashboardCfgDetail;
 
 /**
  * @author devin.liu

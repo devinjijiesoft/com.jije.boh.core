@@ -6,7 +6,6 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ClassPath: .,bin
 Import-Package: com.jije.boh.core.domain.model,
- com.jije.boh.core.domain.ui,
  javax.persistence;version="2.0.3",
  javax.persistence.criteria;version="2.0.3",
  javax.persistence.metamodel;version="2.0.3",
@@ -34,5 +33,4 @@ Bundle-Activator: com.jije.boh.core.jpa.Activator
 Require-Bundle: org.springframework.aop;bundle-version="3.0.5",
  com.springsource.org.aopalliance;bundle-version="1.0.0",
  org.junit
-Export-Package: com.jije.boh.core.jpa.repository,
- com.jije.boh.core.jpa.repository.ui
+Export-Package: com.jije.boh.core.jpa.repository

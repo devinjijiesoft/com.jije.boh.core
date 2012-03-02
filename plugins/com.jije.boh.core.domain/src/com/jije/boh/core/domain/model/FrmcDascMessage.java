@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.jije.boh.core.domain.ui;
+package com.jije.boh.core.domain.model;
 
 import java.sql.Date;
 
@@ -36,7 +36,7 @@ public class FrmcDascMessage {
 	String content;
 	@Column(name = "sendemployeeid")
 	String sendemployeeid;
-	@Temporal(TemporalType.DATE)
+//	@Temporal(TemporalType.DATE)
 	@Column(name = "sendtime")
 	Date sendtime;
 	@Column(name = "tostoreid")

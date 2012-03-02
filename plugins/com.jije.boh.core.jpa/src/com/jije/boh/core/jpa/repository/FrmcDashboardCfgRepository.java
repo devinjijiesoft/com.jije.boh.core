@@ -1,4 +1,4 @@
-package com.jije.boh.core.jpa.repository.ui;
+package com.jije.boh.core.jpa.repository;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.jije.boh.core.domain.model.Transaction;
-import com.jije.boh.core.domain.ui.FrmcDashboardCfg;
-import com.jije.boh.core.domain.ui.FrmcMenuCfg;
+import com.jije.boh.core.domain.model.FrmcDashboardCfg;
+import com.jije.boh.core.domain.model.FrmcMenuCfg;
 
 /**
  * @author devin.liu

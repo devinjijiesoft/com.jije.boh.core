@@ -1,4 +1,4 @@
-package com.jije.boh.core.domain.ui;
+package com.jije.boh.core.domain.model;
 
 import java.io.Serializable;
 
