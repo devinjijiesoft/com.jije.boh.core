@@ -6,6 +6,7 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ClassPath: .,bin
 Import-Package: com.jije.boh.core.domain.model,
+ com.jije.boh.core.domain.ui,
  javax.persistence;version="2.0.3",
  javax.persistence.criteria;version="2.0.3",
  javax.persistence.metamodel;version="2.0.3",
@@ -18,16 +19,20 @@ Import-Package: com.jije.boh.core.domain.model,
  org.h2;version="1.1.117",
  org.osgi.framework,
  org.springframework.beans.factory.annotation;version="3.0.5.RELEASE",
+ org.springframework.data.domain;version="1.1.0.RELEASE",
  org.springframework.data.jpa.domain;version="1.0.3.RELEASE",
  org.springframework.data.jpa.repository;version="1.0.3.RELEASE",
  org.springframework.data.jpa.repository.support;version="1.0.3.RELEASE",
  org.springframework.data.repository;version="1.1.0.RELEASE",
  org.springframework.data.repository.core.support;version="1.1.0.RELEASE",
+ org.springframework.orm.hibernate3.support;version="3.0.5.RELEASE",
  org.springframework.orm.jpa;version="3.0.5.RELEASE",
  org.springframework.orm.jpa.vendor;version="3.0.5.RELEASE",
  org.springframework.stereotype;version="3.0.5.RELEASE",
  org.springframework.transaction.annotation;version="3.0.5.RELEASE"
 Bundle-Activator: com.jije.boh.core.jpa.Activator
 Require-Bundle: org.springframework.aop;bundle-version="3.0.5",
- com.springsource.org.aopalliance;bundle-version="1.0.0"
-Export-Package: com.jije.boh.core.jpa.repository
+ com.springsource.org.aopalliance;bundle-version="1.0.0",
+ org.junit
+Export-Package: com.jije.boh.core.jpa.repository,
+ com.jije.boh.core.jpa.repository.ui
