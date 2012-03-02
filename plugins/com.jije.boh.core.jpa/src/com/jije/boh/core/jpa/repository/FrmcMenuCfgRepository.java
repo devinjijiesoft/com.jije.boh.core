@@ -9,7 +9,8 @@ import com.jije.boh.core.domain.model.FrmcMenuCfg;
 /**
  * @author devin.liu
  * @since 2012 02 29
- * @version 1.0 description: FrmcMenuCfgRepository Repository
+ * @version 1.0
+ *  description: FrmcMenuCfgRepository Repository
  * 
  **/
 @Transactional
